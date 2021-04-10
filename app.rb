@@ -28,4 +28,5 @@ class App < Sinatra::Base
     output = "#{@W1} #{@W2} #{@W3} #{@W4} #{@W5}"
     output
   end
+  
 end
