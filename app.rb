@@ -7,4 +7,9 @@ class App < Sinatra::Base
     user_name
   end
 
+  get "/square/:number" do
+    user_name = params[:name].reverse
+    user_name
+  end
+
 end
