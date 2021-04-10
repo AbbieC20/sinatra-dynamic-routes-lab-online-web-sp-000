@@ -29,4 +29,14 @@ class App < Sinatra::Base
     output
   end
 
+  get "/:operation/:number1/:number2" do
+    @W1 = params[:word1]
+    @W2 = params[:word2]
+    @W3 = params[:word3]
+    @W4 = params[:word4]
+    @W5 = params[:word5]
+    output = "#{@W1} #{@W2} #{@W3} #{@W4} #{@W5}."
+    output
+  end
+
 end
