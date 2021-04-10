@@ -45,6 +45,7 @@ class App < Sinatra::Base
     else operation == "divide"
       output = number1 / number2
       return output.to_s
+    end
   end
 
 end
