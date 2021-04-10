@@ -25,7 +25,7 @@ class App < Sinatra::Base
     W3 = params[:word3]
     W4 = params[:word4]
     W5 = params[:word5]
-    output = W1 + W2 + W3 + W4 + W5
+    output = W1+ " " + W2+ " " +W3+ " " +W4+ " " +W5
     output
   end
 end
